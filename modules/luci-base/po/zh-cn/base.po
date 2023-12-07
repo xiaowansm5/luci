@@ -4126,3 +4126,12 @@ msgstr "高性能模式"
 
 msgid "Target Platform"
 msgstr "目标平台"
+
+msgid "Beacon Interval"
+msgstr "Beacon间隔"
+
+msgid "Kick STA Threshold"
+msgstr "弱信号剔除阈值"
+
+msgid "STA Assoc Threshold"
+msgstr "弱信号接入阈值"
