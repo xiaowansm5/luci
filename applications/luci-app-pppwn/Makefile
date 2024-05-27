@@ -1,13 +1,16 @@
-#
-# Copyright (C) 2008-2016 The LuCI Team <luci@lists.subsignal.org>
+# Copyright (C) 2022 Openwrt.org
 #
 # This is free software, licensed under the Apache License, Version 2.0 .
 #
 
 include $(TOPDIR)/rules.mk
 
-LUCI_TITLE:=LuCI Support for Transmission
-LUCI_DEPENDS:=+transmission-web-control
+LUCI_TITLE:=LuCI support for PPPWN
+LUCI_DEPENDS:=+pppwn-cpp
+LUCI_PKGARCH:=all
+PKG_NAME:=luci-app-pppwn
+PKG_VERSION:=1
+PKG_RELEASE:=2
 
 include ../../luci.mk
 
